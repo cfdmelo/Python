@@ -42,6 +42,6 @@ with open('car_fleet.csv') as csvFile:
     currentVehicle = copy.deepcopy(myVehicle)
     
     for myCarProperties in myInventoryList:
-    for key, value in myCarProperties.items():
-        print("{} : {}".format(key,value))
-        print("-----")
+        for key, value in myCarProperties.items():
+            print("{} : {}".format(key,value))
+            print("-----")
